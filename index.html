@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schedule</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__schedule">
+            <div class="container__content">
+                <div class="container__dates">
+                    <div class="container__choose-type-date">
+                        <button>choose</button>
+                    </div>
+                    <div class="container__dates-field">
+                        <button class="prev-dates-btn dates-btn">&#x2190;</button>
+                        <div class="container__dates-wrap"></div>
+                        <button class="next-dates-btn dates-btn">&#x2192;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="backlog">
+            <h4>Backlog</h4>
+            <input type="search" name="search" class="backlog__search" placeholder="search task">
+            <div class="backlog__items"></div>
+        </div>
+    </div>
+
+    <div id="modal-task" class="modal">
+        <a href="#" class="modal__close">&times;</a>
+        <p class="text-modal"></p>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>

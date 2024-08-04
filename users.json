@@ -1,0 +1,65 @@
+[
+    {
+        "no_user": false,
+        "firstname": "Alex",
+        "lastname": "Bash",
+        "tasks": [
+            {
+                "id": "1",
+                "name": "Write service as golang microservice",
+                "start": "2.8",
+                "end": "4.8",
+                "text_modal": "write fast concourency microservice"
+            },
+            {
+                "id": "1.1",
+                "name": "Solve Error",
+                "start": "5.8",
+                "end": "6.8",
+                "text_modal": "500 response on server"
+            }
+        ]
+    },
+    {
+        "no_user": false,
+        "firstname": "Dima",
+        "lastname": "Bart",
+        "tasks": [
+            {
+                "id": "2",
+                "name": "Write module",
+                "start": "2.8",
+                "end": "3.8",
+                "text_modal": "write good module and use it"
+            }
+        ]
+    },
+    {
+        "no_user": true,
+        "firstname": "",
+        "lastname": "",
+        "tasks": [
+            {
+                "id": "3",
+                "name": "Write front",
+                "start": "4.8",
+                "end": "6.8",
+                "text_modal": "write front with react"
+            }
+        ]
+    },
+    {
+        "no_user": true,
+        "firstname": "",
+        "lastname": "",
+        "tasks": [
+            {
+                "id": "4",
+                "name": "Wrong DNS conn",
+                "start": "5.8",
+                "end": "6.8",
+                "text_modal": "DNS conf is not correct"
+            }
+        ]
+    }
+]
